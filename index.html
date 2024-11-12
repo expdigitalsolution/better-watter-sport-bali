@@ -166,6 +166,7 @@
 
           <!-- mobile -->
           <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+
           <div class="flex-none lg:hidden text-end">
             <label
               for="my-drawer-3"
@@ -223,7 +224,7 @@
                 <a
                   href="/"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >Home</a
                 >
               </li>
@@ -231,7 +232,7 @@
                 <a
                   href="#about"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >About Us</a
                 >
               </li>
@@ -239,7 +240,7 @@
                 <a
                   href="#activity"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >Our Activity</a
                 >
               </li>
@@ -247,7 +248,7 @@
                 <a
                   href="#gallery"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >Gallery</a
                 >
               </li>
@@ -987,5 +988,22 @@
     }
 
     window.onload = fetchPackages;
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinksMobile = document.querySelectorAll(".nav-mobile");
+      const drawerCheckbox = document.getElementById("my-drawer-3");
+
+      if (drawerCheckbox) {
+        navLinksMobile.forEach((link) => {
+          link.addEventListener("click", function () {
+            if (drawerCheckbox.checked) {
+              drawerCheckbox.checked = false;
+            }
+          });
+        });
+      } 
+    });
   </script>
 </html>
