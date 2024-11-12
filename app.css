@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* padding */
+  .section-padding {
+    @apply xl:container max-w-7xl mx-auto px-4  sm:px-16  py-8 sm:py-16;
+  }
+
+  .section-padding-x {
+    @apply px-4 mx-auto sm:px-16 max-w-7xl  xl:container;
+  }
+  .section-padding-y {
+    @apply py-8 mx-auto sm:py-16 max-w-7xl xl:container;
+  }
+
+  /* text */
+  .heroHeadText {
+    @apply lg:text-[66px] md:text-[56px] sm:text-[46px] text-[36px];
+  }
+  .heroHeadText2 {
+    @apply lg:text-[50px] md:text-[46px] sm:text-[36px] text-[32px];
+  }
+  .sectionSecondaryText {
+    @apply sectionSemiLargeText tracking-[3.5px] font-medium font-lato uppercase;
+  }
+  .sectionHeadText {
+    @apply md:text-[40px] sm:text-[35px] text-[25px];
+  }
+  .sectionLargeText {
+    @apply lg:text-[20px] sm:text-[18px] text-[16px] sm:leading-8 leading-7 lg:leading-9;
+  }
+  .sectionSemiLargeText {
+    @apply lg:text-[18px] md:text-[16px] text-[14px] sm:leading-7 leading-6 lg:leading-8;
+  }
+  .sectionMediumText {
+    @apply lg:text-[16px] md:text-[14px] text-[12px] sm:leading-6 leading-5 lg:leading-7;
+  }
+  .sectionNormalText {
+    @apply lg:text-[14px] md:text-[12px] text-[10px] sm:leading-5 leading-4 lg:leading-6;
+  }
+  .sectionSmallText {
+    @apply lg:text-[12px] md:text-[11px] sm:text-[10px] text-[8px] leading-4 md:leading-5;
+  }
+  /* heading */
+  h1 {
+    @apply lg:text-[44px] md:text-[40px] sm:text-[36px] text-[30px];
+  }
+  h3 {
+    @apply lg:text-[38px] md:text-[34px] sm:text-[30px] text-[26px];
+  }
+  h4 {
+    @apply lg:text-[32px] md:text-[28px] sm:text-[26px] text-[22px];
+  }
+  h6 {
+    @apply lg:text-[20px] md:text-[18px] text-[16px];
+  }
+
+  /* button  */
+  .outline {
+    @apply border-blue-100 text-blue-100 hover:bg-primary hover:text-white rounded-full px-8 py-6 border-0 font-lato lg:text-[18px] md:text-[16px] text-[14px] sm:leading-7 leading-5 lg:leading-8 !important;
+  }
+
+  .btn-outline-davygray {
+    @apply border-blue-100 text-blue-100 hover:bg-blue-100 hover:text-white rounded-full px-7 py-2 md:px-10 md:py-3 border-2 font-lato transition-all;
+  }
+
+  .btn-blue {
+    @apply border-blue-100 border-2 text-white hover:text-white rounded-full px-7 py-2 md:px-10 md:py-3 font-lato transition-all hover:bg-blue-100;
+  }
+  .btn-solid-blue {
+    @apply border-blue-100 border-2 text-white  bg-blue-100 hover:text-blue-100 rounded-full px-7 py-2 md:px-10 md:py-3 font-lato transition-all hover:bg-transparent;
+  }
+}

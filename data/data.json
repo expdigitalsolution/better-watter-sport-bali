@@ -1,0 +1,221 @@
+{
+    "packages": [
+      {
+        "package": "Package A",
+        "activities": [
+          {
+            "name": "Banana",
+            "duration": "1 Round",
+            "price": "IDR 60k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Donut",
+            "duration": "1 Round",
+            "price": "IDR 90k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Jetski",
+            "duration": "15 Minutes",
+            "price": "IDR 130k",
+            "remark": "With Instructor"
+          }
+        ],
+        "price_per_person": "IDR 240k",
+        "include": "Lunch",
+        "image": "../assets/image1.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-a"
+      },
+      {
+        "package": "Package B",
+        "activities": [
+          {
+            "name": "Banana",
+            "duration": "1 Round",
+            "price": "IDR 60k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Donut",
+            "duration": "1 Round",
+            "price": "IDR 90k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Snorkeling",
+            "duration": "60 Minutes",
+            "price": "IDR 130k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 260k",
+        "include": "Lunch",
+        "image": "../assets/image2.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-b"
+      },
+      {
+        "package": "Package C",
+        "activities": [
+          {
+            "name": "Banana",
+            "duration": "1 Round",
+            "price": "IDR 60k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Jet Ski",
+            "duration": "15 Minutes",
+            "price": "IDR 130k",
+            "remark": "With Instructor"
+          },
+          {
+            "name": "Fly Fish",
+            "duration": "2x Fly",
+            "price": "IDR 120k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 280k",
+        "include": "Lunch",
+        "image": "../assets/image3.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-c"
+      },
+      {
+        "package": "Package D",
+        "activities": [
+          {
+            "name": "Banana",
+            "duration": "1 Round",
+            "price": "IDR 60k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Snorkeling",
+            "duration": "60 Minutes",
+            "price": "IDR 130k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Fly Fish",
+            "duration": "2x Fly",
+            "price": "IDR 120k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 300k",
+        "include": "Lunch",
+        "image": "../assets/image4.avif",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-d"
+      },
+      {
+        "package": "Package E",
+        "activities": [
+          {
+            "name": "Donut",
+            "duration": "1 Round",
+            "price": "IDR 90k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Jet Ski",
+            "duration": "15 Minutes",
+            "price": "IDR 130k",
+            "remark": "With Instructor"
+          },
+          {
+            "name": "Fly Fish",
+            "duration": "2x Fly",
+            "price": "IDR 120k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 310k",
+        "include": "Lunch",
+        "image": "../assets/image5.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-e"
+      },
+      {
+        "package": "Package F",
+        "activities": [
+          {
+            "name": "Jet Ski",
+            "duration": "15 Minutes",
+            "price": "IDR 130k",
+            "remark": "With Instructor"
+          },
+          {
+            "name": "Parasailing Adv",
+            "duration": "1x Fly",
+            "price": "IDR 200k",
+            "remark": "1 person"
+          },
+          {
+            "name": "Banana",
+            "duration": "1 Round",
+            "price": "IDR 60k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 360k",
+        "include": "Lunch",
+        "image": "../assets/image6.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-f"
+      },
+      {
+        "package": "Package G",
+        "activities": [
+          {
+            "name": "Fly Fish",
+            "duration": "2x Fly",
+            "price": "IDR 120k",
+            "remark": "Min 2 person"
+          },
+          {
+            "name": "Parasailing Adv",
+            "duration": "1x Fly",
+            "price": "IDR 200k",
+            "remark": "1 person"
+          },
+          {
+            "name": "Donut",
+            "duration": "1 Round",
+            "price": "IDR 90k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 400k",
+        "include": "Lunch",
+        "image": "../assets/image7.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-g"
+      },
+      {
+        "package": "Package H",
+        "activities": [
+          {
+            "name": "Jet Ski",
+            "duration": "15 Minutes",
+            "price": "IDR 130k",
+            "remark": "With Instructor"
+          },
+          {
+            "name": "Parasailing Adv",
+            "duration": "1x Fly",
+            "price": "IDR 200k",
+            "remark": "1 person"
+          },
+          {
+            "name": "Fly Fish",
+            "duration": "2x Fly",
+            "price": "IDR 120k",
+            "remark": "Min 2 person"
+          }
+        ],
+        "price_per_person": "IDR 410k",
+        "include": "Lunch",
+        "image": "../assets/image8.jpg",
+        "link": "https://www.bagusbalitrans.com/tour-package/package-h"
+      }
+    ]
+  }
+  
