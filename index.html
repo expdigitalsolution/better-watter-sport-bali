@@ -166,6 +166,7 @@
 
           <!-- mobile -->
           <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+
           <div class="flex-none lg:hidden text-end">
             <label
               for="my-drawer-3"
@@ -203,7 +204,7 @@
                 <label
                   for="my-drawer-3"
                   aria-label="close sidebar"
-                  class="cursor-pointer drawer-overlay text-end btn btn-square btn-ghost"
+                  class="cursor-pointer drawer-overlay text-end btn btn-square bg-black"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +224,7 @@
                 <a
                   href="/"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-link text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >Home</a
                 >
               </li>
@@ -231,7 +232,7 @@
                 <a
                   href="#about"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-link text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >About Us</a
                 >
               </li>
@@ -239,7 +240,7 @@
                 <a
                   href="#activity"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-link text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >Our Activity</a
                 >
               </li>
@@ -247,7 +248,7 @@
                 <a
                   href="#gallery"
                   id="drawer-link"
-                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-link text-black"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
                   >Gallery</a
                 >
               </li>
@@ -294,7 +295,6 @@
             </li>
 
             <li class="ml-10">
-              <!-- You can open the modal using ID.showModal() method -->
               <a
                 href="#contact"
                 id="contactBtn"
@@ -825,6 +825,7 @@
     const logo = document.getElementById("navLogo");
     const contactBtn = document.getElementById("contactBtn");
     const hamburger = document.getElementById("hamburger");
+    const navLinks = document.querySelectorAll(".nav-link");
 
     const heroSectionHeight = 50;
 
@@ -845,6 +846,11 @@
         logo.src = "./assets/logo.png";
         logo.classList.remove("md:h-16");
         logo.classList.add("md:h-12");
+
+        navLinks.forEach((link) => {
+          link.classList.remove("text-white");
+          link.classList.add("text-black");
+        });
       } else {
         navbar.classList.add("bg-transparent");
         navbar.classList.remove("bg-white", "shadow-md");
@@ -858,6 +864,11 @@
 
         hamburger.classList.remove("text-black");
         hamburger.classList.add("text-white");
+
+        navLinks.forEach((link) => {
+          link.classList.remove("text-black");
+          link.classList.add("text-white");
+        });
       }
 
       if (scrollTop > lastScrollTop && scrollTop > heroSectionHeight + 200) {
@@ -959,5 +970,22 @@
     }
 
     window.onload = fetchPackages;
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinksMobile = document.querySelectorAll(".nav-mobile");
+      const drawerCheckbox = document.getElementById("my-drawer-3");
+
+      if (drawerCheckbox) {
+        navLinksMobile.forEach((link) => {
+          link.addEventListener("click", function () {
+            if (drawerCheckbox.checked) {
+              drawerCheckbox.checked = false;
+            }
+          });
+        });
+      } 
+    });
   </script>
 </html>
