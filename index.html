@@ -126,7 +126,7 @@
 
         /* button  */
         .outline {
-          @apply border-blue-100 text-blue-100 hover:bg-primary hover:text-white rounded-full px-8 py-6 border-0 font-lato lg:text-[18px] md:text-[16px] text-[14px] sm:leading-7 leading-5 lg:leading-8 !important;
+          @apply border-blue-100 text-blue-100 hover:bg-blue-100 hover:text-white rounded-full px-8 py-6 border-0 font-lato lg:text-[18px] md:text-[16px] text-[14px] sm:leading-7 leading-5 lg:leading-8 !important;
         }
 
         .btn-blue {
@@ -329,7 +329,7 @@
               <i class="fa-brands fa-instagram"></i>
             </a>
             <a
-              href="https://wa.me/085655710387?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20your%20tour%20packages.%20Could%20you%20please%20provide%20more%20details%20and%20pricing?%20Thank%20you!"
+              href="https://wa.me/6285921415585?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20your%20tour%20packages.%20Could%20you%20please%20provide%20more%20details%20and%20pricing?%20Thank%20you!"
               target="_blank"
               class="flex items-center justify-center md:w-12 md:h-12 w-8 h-8 bg-[#ffffff20] mx-auto border-[#cacaca38] lg:text-[20px] sm:text-[18px] text-[16px] sm:leading-8 leading-7 lg:leading-9 text-white border-2 rounded-full"
             >
@@ -352,17 +352,17 @@
           <p
             class="lg:text-[18px] md:text-[16px] text-[14px] sm:leading-7 leading-6 lg:leading-8 text-dark-text"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+            Dive into the ultimate water sports experience – from thrilling
+            rides to serene escapes, Bali’s best water activities await you!
           </p>
           <div class="flex items-center gap-5 mt-10 lg:gap-10 lg:mt-16">
-            <a href="" class="font-bold btn-solid-blue font-lato">Book Now</a>
+            <a href="#activity" class="font-bold btn-solid-blue font-lato"
+              >Book Now</a
+            >
 
             <div class="flex items-center cursor-pointer group">
               <a
-                href=""
+                href="#about"
                 class="pr-2 font-bold text-white transition-all hover:pr-4 sectionMediumText font-lato peer"
                 >Learn More
               </a>
@@ -406,17 +406,17 @@
               About Us
             </p>
             <h1 class="font-bold text-black">
-              We Recommended Beautiful Destinations Every Month
+              Discover the Ultimate Water Sports Experience in Bali
             </h1>
             <p
               class="mt-1 mb-6 font-lato sectionMediumText text-light-text lg:mt-2"
             >
-              Bagus Bali Trans is a leading transportation company specializing
-              in travel services to all major tourist destinations in Bali. With
-              a team of highly experienced drivers and a fleet of modern,
-              well-maintained vehicles offering a variety of options to suit
-              every customer’s needs, Bagus Bali Trans has become one of the top
-              choices for travelers exploring Bali.
+              Water Sports Bali is a premier destination offering a wide range
+              of exciting water activities designed for thrill-seekers and
+              adventure enthusiasts. Located in the heart of Bali’s beautiful
+              coastline, our company brings you closer to the island’s natural
+              beauty while providing safe and unforgettable experiences on the
+              water.
             </p>
           </div>
         </div>
@@ -427,7 +427,6 @@
     <!-- section two -->
     <section>
       <div
-        id="contact"
         class="min-h-[20vw] bg-fixed hero"
         style="background-image: url('./assets/home-cta.png')"
       >
@@ -436,16 +435,22 @@
             <div
               class="text-center text basis-full md:basis-8/12 md:text-start"
             >
-              <h1 class="font-bold text-white">Discover Bali’s Beauty Now!</h1>
+              <h1 class="font-bold text-white">
+                Ready for the Ride of Your Life?
+              </h1>
               <p
-                class="max-w-2xl mt-1 font-lato sectionMediumText text-dark-text lg:mt-2"
+                class="max-w-2xl mt-1 mb-6 md:mb-0 font-lato sectionMediumText text-dark-text lg:mt-2"
               >
-                Don’t miss out on the magic of this tropical paradise. Reserve
-                your spot now and experience the island like never before!
+                Book your water sports adventure with us today and experience
+                Bali like never before. Whether you want to feel the rush of the
+                waves or explore the underwater world, we’ve got something for
+                everyone.
               </p>
             </div>
             <div class="text-center button basis-full md:basis-4/12">
-              <a href="" class="mt-6 font-bold btn-solid-blue font-lato md:mt-0"
+              <a
+                href="https://wa.me/6285921415585?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20your%20tour%20packages.%20Could%20you%20please%20provide%20more%20details%20and%20pricing?%20Thank%20you!"
+                class="mt-6 font-bold btn-solid-blue font-lato md:mt-0"
                 >Book Now</a
               >
             </div>
@@ -463,7 +468,7 @@
         >
           Packages
         </p>
-        <h1 class="font-bold text-black">Choose Our Tour Packages</h1>
+        <h1 class="font-bold text-black">Choose Our Water Sports Packages</h1>
       </div>
 
       <div
@@ -486,21 +491,22 @@
           </form>
           <h2 class="text-2xl font-bold mb-4">Detail Package</h2>
           <p class="font-lato text-lg font-bold mb-4">Our Activities:</p>
-          <!-- Table for activities -->
-          <table
-            id="modal-activities-table-{id}"
-            class="border-collapse border border-gray table w-full mb-4"
-          >
-            <thead>
-              <tr class="text-black bg-base-200">
-                <th>ACTIVITY</th>
-                <th>DURATION</th>
-                <th>PRICE / PERSON</th>
-                <th>REMARK</th>
-              </tr>
-            </thead>
-            <tbody id="modal-activities-{id}"></tbody>
-          </table>
+          <div class="overflow-x-auto">
+            <table
+              id="modal-activities-table-{id}"
+              class="border-collapse border border-gray table w-full mb-4"
+            >
+              <thead>
+                <tr class="text-black bg-base-200">
+                  <th>ACTIVITY</th>
+                  <th>DURATION</th>
+                  <th>PRICE / PERSON</th>
+                  <th>REMARK</th>
+                </tr>
+              </thead>
+              <tbody id="modal-activities-{id}"></tbody>
+            </table>
+          </div>
           <p class="font-lato text-lg mb-4 mt-4" id="modal-price-{id}"></p>
           <div class="modal-action">
             <a
@@ -614,26 +620,26 @@
     <!-- section four -->
 
     <!-- section five -->
-    <section style="background-image: url('./assets/bg-map.png')">
+    <section style="background-image: url('./assets/bg-map.png')" id="contact">
       <div
         class="relative gap-6 px-6 pt-10 mx-auto service sm:px-16 sm:pt-20 max-w-7xl"
       >
         <div class="block text-center">
           <h5
-            class="font-poppins font-extrabold text-blue-100 tracking-[5px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] aos-init aos-animate"
+            class="font-poppins mb-4 font-extrabold text-blue-100 tracking-[5px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] aos-init aos-animate"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
-            BAGAIMANA MENGHUBUNGI KAMI
+            HOW TO CONTACT US
           </h5>
           <h1 class="sectionHeadText font-syne font-medium text-white">
-            Temukan Kantor Kami
+            Find Our Office
           </h1>
           <div
             class="mx-auto h-[2px] w-[60px] bg-white white-line md:mb-[20px] md:mt-[10px] mt-[15px] mb-[15px]"
           ></div>
           <p class="sectionP text-dark-text">
-            Kami siap dengan antusias untuk berkomunikasi dan membantu Anda.
+            We are eager to communicate and assist you.
           </p>
         </div>
       </div>
@@ -650,7 +656,7 @@
                   data-aos="fade-down"
                   data-aos-duration="1500"
                 >
-                  Alamat Kantor
+                  Office Address
                 </h2>
                 <p
                   class="sectionMediumText text-dark-text aos-init aos-animate"
@@ -667,7 +673,7 @@
                   data-aos="fade-down"
                   data-aos-duration="1500"
                 >
-                  Kontak Kami
+                  Contact us
                 </h2>
                 <div class="grid gap-4">
                   <div class="flex gap-4 items-center">
@@ -675,10 +681,10 @@
                       class="fa-brands fa-square-whatsapp text-white text-3xl"
                     ></i>
                     <a
-                      href="https://api.whatsapp.com/send?phone=6285921415585&amp;text=Halo Mariz Property, Saya tertarik mencari lahan strategis di Bali. Apakah Anda memiliki rekomendasi yang bisa saya pertimbangkan?"
+                      href="https://wa.me/6285921415585?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20your%20tour%20packages.%20Could%20you%20please%20provide%20more%20details%20and%20pricing?%20Thank%20you!"
                       class="font-poppins font-light text-white sectionP"
                     >
-                      +62 859-2141-5585
+                      +62 8592-1415-585
                     </a>
                   </div>
 
@@ -745,14 +751,7 @@
             </a>
             <a
               target="_blank"
-              href=""
-              class="flex space-x-4 hover:text-light-text"
-            >
-              <i class="fa-brands fa-facebook text-[1.6rem]"></i>
-            </a>
-            <a
-              target="_blank"
-              href="https://wa.me/085655710387?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20your%20tour%20packages.%20Could%20you%20please%20provide%20more%20details%20and%20pricing?%20Thank%20you!"
+              href="https://wa.me/6285921415585?text=Hello!%20I'm%20interested%20in%20learning%20more%20about%20your%20tour%20packages.%20Could%20you%20please%20provide%20more%20details%20and%20pricing?%20Thank%20you!"
               class="flex space-x-4 hover:text-light-text"
             >
               <i class="fa-brands fa-whatsapp text-[1.6rem]"></i
@@ -768,55 +767,37 @@
             >
               Pages
             </h5>
-            <div class="md:mx-0 mx-auto h-[1px] w-10 bg-primary"></div>
+            <div class="md:mx-0 mx-auto h-[1px] w-10 bg-blue-100"></div>
             <a
-              href=""
+              href="/"
               class="font-normal transition-all cursor-pointer font-lato sectionMediumText hover:text-light-text text-dark-text"
             >
               Home
             </a>
             <a
-              href=""
+              href="#about"
               class="font-normal transition-all cursor-pointer font-lato sectionMediumText hover:text-light-text text-dark-text"
             >
               About Us
             </a>
             <a
-              href=""
+              href="#activity"
               class="font-normal transition-all cursor-pointer font-lato sectionMediumText hover:text-light-text text-dark-text"
             >
               Our Package
             </a>
             <a
-              href=""
+              href="#gallery"
               class="font-normal transition-all cursor-pointer font-lato sectionMediumText hover:text-light-text text-dark-text"
             >
-              Tourist Activity
+              Gallery
             </a>
             <a
-              href=""
+              href="#contact"
               class="font-normal transition-all cursor-pointer font-lato sectionMediumText hover:text-light-text text-dark-text"
             >
               Contact
             </a>
-          </nav>
-
-          <nav class="flex flex-col gap-4 mx-auto md:gap-3 md:mx-0">
-            <h5
-              class="font-semibold normal-case opacity-100 footer-title font-poppins sectionLargeText"
-            >
-              Tours Package
-            </h5>
-            <div class="md:mx-0 mx-auto h-[1px] w-10 bg-primary"></div>
-          </nav>
-
-          <nav class="flex flex-col gap-4 mx-auto md:gap-3 md:mx-0">
-            <h5
-              class="font-semibold normal-case opacity-100 footer-title font-poppins sectionLargeText"
-            >
-              Tourist Activity
-            </h5>
-            <div class="md:mx-0 mx-auto h-[1px] w-10 bg-primary"></div>
           </nav>
         </div>
       </footer>
@@ -904,7 +885,7 @@
     function openModal(packageId, activities, price, packageName) {
       document.getElementById(
         `modal-price-${packageId}`
-      ).innerHTML = ` <p class="font-lato sectionMediumText text-black lg:mt-1">Only <span class="font-bold">${price} / Person</span>  include Lunch!</p>`;
+      ).innerHTML = ` <p class="font-lato text-lg text-black lg:mt-1">Only <span class="font-bold">${price} / Person</span>  include Lunch!</p>`;
 
       const activityTable = document.getElementById(
         `modal-activities-${packageId}`
@@ -922,9 +903,10 @@
         activityTable.appendChild(row);
       });
 
-      const whatsappLink = `https://wa.me/6285921415585?text=Hello%20Better%20Water%20Sports%20Bali.%20Saya%20ingin%20menanyakan%20${encodeURIComponent(
+      const whatsappLink = `https://wa.me/6285921415585?text=Hello%20Better%20Water%20Sports%20Bali.%20I%20would%20like%20to%20inquire%20about%20${encodeURIComponent(
         packageName
-      )}%20ini,%20apakah%20anda%20bisa%20menjelaskan%20lebih%20lanjut?`;
+      )}%20,%20could%20you%20please%20provide%20more%20details?`;
+
       document.getElementById(`whatsapp-link-${packageId}`).href = whatsappLink;
 
       document.getElementById(`modal-${packageId}`).checked = true;
