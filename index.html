@@ -311,7 +311,7 @@
 
     <!-- hero -->
     <div
-      class="min-h-screen hero"
+      class="min-h-screen pt-10 hero"
       style="background-image: url('./assets/banner.png')"
     >
       <div
@@ -937,9 +937,14 @@
           }" alt="${pkg.package}" />
         </div>
         <div class="content">
+        <div class="flex justify-between items-center">
           <h6 class="font-bold text-black mt-3 xl:text-[26px]">${
             pkg.package
           }</h6>
+          <h6 class="font-bold text-blue-200 mt-3 xl:text-[26px]">${
+            pkg.price_per_person
+          }</h6>
+            </div>
           <p class="font-lato sectionMediumText font-bold lg:mt-1">
             Our Activity:
             <span class="font-normal">
@@ -985,7 +990,7 @@
             }
           });
         });
-      } 
+      }
     });
   </script>
 </html>
