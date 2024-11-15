@@ -19,27 +19,29 @@
       name="keywords"
       content="Water Sports Bali, jet ski Bali, parasailing Bali, banana boat Bali, water activities Bali, Bali adventure"
     />
-    <meta name="author" content="Water Sport Bali" />
+    <meta name="author" content="Better Water Sports Bali" />
     <meta
       property="og:title"
-      content="Water Sport Bali | Best Water Sports Experience in Bali"
+      content="Water Sport Bali | Better Water Sports Bali - Best Water Sports Experience
+      in Bali"
     />
     <meta
       property="og:description"
       content="Enjoy exciting water sports activities such as jet skiing, parasailing, and banana boats in Bali. Book now for an unforgettable experience!"
     />
-    <meta property="og:image" content="URL_THUMBNAIL_IMAGE" />
-    <meta property="og:url" content="https://www.watersportbali.com" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="./assets/logo.png" />
+    <meta property="og:url" content="https://betterwatersportsbali.com/" />
+    <meta name="twitter:card" content="./assets/logo.png" />
     <meta
       name="twitter:title"
-      content="Water Sport Bali | Best Water Sports Experience in Bali"
+      content="Water Sport Bali | Better Water Sports Bali - Best Water Sports Experience
+      in Bali"
     />
     <meta
       name="twitter:description"
       content="Enjoy thrilling water sports in Bali! Jet ski, parasailing, banana boat, and many more activities for all ages."
     />
-    <meta name="twitter:image" content="URL_THUMBNAIL_IMAGE" />
+    <meta name="twitter:image" content="./assets/logo.png" />
 
     <!-- Favicon -->
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
@@ -130,7 +132,7 @@
         }
 
         .btn-blue {
-          @apply border-blue-100 border-2 text-white hover:text-white rounded-full px-7 py-2 md:px-10 md:py-3 font-lato transition-all hover:bg-blue-100;
+          @apply hover:border-blue-100 border-blue-200 border-2 text-white hover:text-white rounded-full px-7 py-2 md:px-10 md:py-3 font-lato transition-all hover:bg-blue-100;
         }
         .btn-solid-blue {
           @apply border-blue-100 border-2 text-white  bg-blue-100 hover:text-blue-100 rounded-full px-7 py-2 md:px-10 md:py-3 font-lato transition-all hover:bg-transparent;
@@ -238,6 +240,14 @@
               </li>
               <li>
                 <a
+                  href="#packages"
+                  id="drawer-link"
+                  class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
+                  >Our Packages/a
+                >
+              </li>
+              <li>
+                <a
                   href="#activity"
                   id="drawer-link"
                   class="font-semibold transition-all font-lato hover:text-blue-100 sectionMediumText nav-mobile text-black"
@@ -277,6 +287,13 @@
                 href="#about"
                 class="text-white transition-all hover:text-blue-100 font-regular sectionSemiLargeText nav-link text-black"
                 >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#packages"
+                class="text-white transition-all hover:text-blue-100 font-regular sectionSemiLargeText nav-link text-black"
+                >Our Packages</a
               >
             </li>
             <li>
@@ -461,65 +478,19 @@
     <!-- section two -->
 
     <!-- section three -->
-    <div class="section-padding" id="activity">
-      <div class="text-center headline">
-        <p
-          class="mb-0 lg:mb-2 sectionSecondaryText text-blue-200 font-black font lato"
-        >
-          Packages
-        </p>
-        <h1 class="font-bold text-black">Choose Our Water Sports Packages</h1>
-      </div>
+<div class="section-padding" id="activity">
+  <div class="text-center headline">
+    <p class="mb-0 lg:mb-2 sectionSecondaryText text-blue-200 font-black font lato">Activities</p>
+    <h1 class="font-bold text-black">Choose Your Water Sports Activities</h1>
+  </div>
 
-      <div
-        id="packages-container"
-        class="grid grid-cols-1 gap-8 mt-7 sm:grid-cols-2 lg:grid-cols-3 xl:gap-12 lg:mt-14"
-      ></div>
-    </div>
+  <div
+    id="activities-container"
+    class="grid grid-cols-1 gap-8 mt-7 sm:grid-cols-2 lg:grid-cols-3 xl:gap-12 lg:mt-14"
+  ></div>
+</div>
 
-    <div id="my_modal_3" class="hidden">
-      <input type="checkbox" id="modal-{id}" class="modal-toggle" />
-      <div class="modal">
-        <div class="modal-box">
-          <form method="dialog">
-            <button
-              class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-              for="modal-{id}"
-            >
-              <label for="modal-{id}">x</label>
-            </button>
-          </form>
-          <h2 class="text-2xl font-bold mb-4">Detail Package</h2>
-          <p class="font-lato text-lg font-bold mb-4">Our Activities:</p>
-          <div class="overflow-x-auto">
-            <table
-              id="modal-activities-table-{id}"
-              class="border-collapse border border-gray table w-full mb-4"
-            >
-              <thead>
-                <tr class="text-black bg-base-200">
-                  <th>ACTIVITY</th>
-                  <th>DURATION</th>
-                  <th>PRICE / PERSON</th>
-                  <th>REMARK</th>
-                </tr>
-              </thead>
-              <tbody id="modal-activities-{id}"></tbody>
-            </table>
-          </div>
-          <p class="font-lato text-lg mb-4 mt-4" id="modal-price-{id}"></p>
-          <div class="modal-action">
-            <a
-              href="#"
-              id="whatsapp-link-{id}"
-              class="whatsapp-button font-bold text-white bg-blue-200 p-2 mt-4 rounded"
-              >Get it now</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- section three -->
+<!-- section three -->
 
     <!-- section four -->
     <section class="bg-[#F9F9F9]" id="gallery">
@@ -618,6 +589,67 @@
       </div>
     </section>
     <!-- section four -->
+
+     <!-- section three -->
+     <div class="section-padding" id="packages">
+      <div class="text-center headline">
+        <p
+          class="mb-0 lg:mb-2 sectionSecondaryText text-blue-200 font-black font lato"
+        >
+          Packages
+        </p>
+        <h1 class="font-bold text-black">Choose Our Water Sports Packages</h1>
+      </div>
+
+      <div
+        id="packages-container"
+        class="grid grid-cols-1 gap-8 mt-7 sm:grid-cols-2 lg:grid-cols-3 xl:gap-12 lg:mt-14"
+      ></div>
+    </div>
+
+    <div id="my_modal_3" class="hidden">
+      <input type="checkbox" id="modal-{id}" class="modal-toggle" />
+      <div class="modal">
+        <div class="modal-box">
+          <form method="dialog">
+            <button
+              class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              for="modal-{id}"
+            >
+              <label for="modal-{id}">x</label>
+            </button>
+          </form>
+          <h2 class="text-2xl font-bold mb-4">Detail Package</h2>
+          <p class="font-lato text-lg font-bold mb-4">Our Activities:</p>
+          <div class="overflow-x-auto">
+            <table
+              id="modal-activities-table-{id}"
+              class="border-collapse border border-gray table w-full mb-4"
+            >
+              <thead>
+                <tr class="text-black bg-base-200">
+                  <th>ACTIVITY</th>
+                  <th>DURATION</th>
+                  <th>PRICE / PERSON</th>
+                  <th>REMARK</th>
+                </tr>
+              </thead>
+              <tbody id="modal-activities-{id}"></tbody>
+            </table>
+          </div>
+          <p class="font-lato text-lg mb-4 mt-4" id="modal-price-{id}"></p>
+          <div class="modal-action">
+            <a
+              href="#"
+              id="whatsapp-link-{id}"
+              class="whatsapp-button font-bold text-white bg-blue-200 p-2 mt-4 rounded"
+              >Get it now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section three -->
 
     <!-- section five -->
     <section style="background-image: url('./assets/bg-map.png')" id="contact">
@@ -881,101 +913,142 @@
     });
   </script>
 
-  <script>
-    function fetchPackages() {
-      fetch("data/data.json")
-        .then((response) => response.json())
-        .then((data) => {
-          renderPackages(data.packages);
-        })
-        .catch((error) => {
-          console.error("Error fetching the JSON file:", error);
-        });
-    }
+<script>
+  function fetchPackages() {
+    fetch("data/data.json")
+      .then((response) => response.json())
+      .then((data) => {
+        renderPackages(data.packages);
+      })
+      .catch((error) => {
+        console.error("Error fetching the JSON file:", error);
+      });
+  }
 
-    function openModal(packageId, activities, price, packageName) {
-      document.getElementById(
-        `modal-price-${packageId}`
-      ).innerHTML = ` <p class="font-lato text-lg text-black lg:mt-1">Only <span class="font-bold">${price} / Person</span>  include Lunch!</p>`;
+  function openModal(packageId, activities, price, packageName) {
+    document.getElementById(
+      `modal-price-${packageId}`
+    ).innerHTML = `<p class="font-lato text-lg text-black lg:mt-1">Only <span class="font-bold">${price} / Person</span> include Lunch!</p>`;
 
-      const activityTable = document.getElementById(
-        `modal-activities-${packageId}`
-      );
-      activityTable.innerHTML = "";
+    const activityTable = document.getElementById(`modal-activities-${packageId}`);
+    activityTable.innerHTML = "";
 
-      activities.forEach((activity) => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
+    activities.forEach((activity) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
         <td>${activity.name}</td>
         <td>${activity.duration}</td>
         <td>${activity.price}</td>
         <td>${activity.remark}</td>
       `;
-        activityTable.appendChild(row);
-      });
+      activityTable.appendChild(row);
+    });
 
-      const whatsappLink = `https://wa.me/6285921415585?text=Hello%20Better%20Water%20Sports%20Bali.%20I%20would%20like%20to%20inquire%20about%20${encodeURIComponent(
-        packageName
-      )}%20,%20could%20you%20please%20provide%20more%20details?`;
+    const whatsappLink = `https://wa.me/6285921415585?text=Hello%20Better%20Water%20Sports%20Bali.%20I%20would%20like%20to%20inquire%20about%20${encodeURIComponent(
+      packageName
+    )}%20,%20could%20you%20please%20provide%20more%20details?`;
+    document.getElementById(`whatsapp-link-${packageId}`).href = whatsappLink;
 
-      document.getElementById(`whatsapp-link-${packageId}`).href = whatsappLink;
+    document.getElementById(`modal-${packageId}`).checked = true;
+  }
 
-      document.getElementById(`modal-${packageId}`).checked = true;
-    }
+  function renderPackages(packages) {
+    const container = document.getElementById("packages-container");
+    container.innerHTML = "";
 
-    function renderPackages(packages) {
-      const container = document.getElementById("packages-container");
-      container.innerHTML = "";
-
-      packages.forEach((pkg, index) => {
-        const card = document.createElement("div");
-        card.classList.add("tour-card");
-        card.innerHTML = `
+    packages.forEach((pkg, index) => {
+      const card = document.createElement("div");
+      card.classList.add("tour-card");
+      card.innerHTML = `
         <div class="relative image">
-          <img class="object-cover object-center w-full h-[15rem] sm:h-[17rem]" src="${
-            pkg.image
-          }" alt="${pkg.package}" />
+          <img class="object-cover object-center w-full h-[15rem] sm:h-[17rem]" src="${pkg.image}" alt="${pkg.package}" />
         </div>
         <div class="content">
-        <div class="flex justify-between items-center">
-          <h6 class="font-bold text-black mt-3 xl:text-[26px]">${
-            pkg.package
-          }</h6>
-          <h6 class="font-bold text-blue-200 mt-3 xl:text-[26px]">${
-            pkg.price_per_person
-          }</h6>
-            </div>
+          <div class="flex justify-between items-center">
+            <h6 class="font-bold text-black mt-3 xl:text-[26px]">${pkg.package}</h6>
+            <h6 class="font-bold text-blue-200 mt-3 xl:text-[26px]">${pkg.price_per_person}</h6>
+          </div>
           <p class="font-lato sectionMediumText font-bold lg:mt-1">
             Our Activity:
-            <span class="font-normal">
-              ${pkg.activities.map((activity) => activity.name).join(", ")}
-            </span>
+            <span class="font-normal">${pkg.activities.map((activity) => activity.name).join(", ")}</span>
           </p>
           <div class="flex items-center mt-2 group lg:mt-5">
-            <a href="" class="pr-3 font-bold transition-all cursor-pointer text-black hover:pr-5 sectionMediumText font-lato hover:text-light-text peer">Details
-            </a>
+            <a href="#" class="pr-3 font-bold transition-all cursor-pointer text-black hover:pr-5 sectionMediumText font-lato hover:text-light-text peer">Details</a>
             <i class="font-bold fa-solid fa-arrow-right-long text-black peer-hover:text-light-text sectionMediumText"></i>
           </div>
-         
         </div>
       `;
 
-        card.querySelector("a").addEventListener("click", (e) => {
-          e.preventDefault();
-          openModal(index, pkg.activities, pkg.price_per_person, pkg.package);
-        });
-
-        container.appendChild(card);
-
-        const modalTemplate = document.getElementById("my_modal_3").innerHTML;
-        const modal = document.createElement("div");
-        modal.innerHTML = modalTemplate.replace(/{id}/g, index);
-        document.body.appendChild(modal);
+      card.querySelector("a").addEventListener("click", (e) => {
+        e.preventDefault();
+        openModal(index, pkg.activities, pkg.price_per_person, pkg.package);
       });
-    }
 
-    window.onload = fetchPackages;
-  </script>
+      container.appendChild(card);
+
+      const modalTemplate = document.getElementById("my_modal_3").innerHTML;
+      const modal = document.createElement("div");
+      modal.innerHTML = modalTemplate.replace(/{id}/g, index);
+      document.body.appendChild(modal);
+    });
+  }
+
+  function fetchActivities() {
+    fetch("data/activity.json")
+      .then((response) => response.json())
+      .then((data) => {
+        renderActivities(data.activities);
+      })
+      .catch((error) => {
+        console.error("Error fetching the JSON file:", error);
+      });
+  }
+
+  function renderActivities(activities) {
+  const container = document.getElementById("activities-container");
+  container.innerHTML = "";
+
+  activities.forEach((activity, index) => {
+    const card = document.createElement("div");
+    card.classList.add("tour-card");
+    card.innerHTML = `
+      <div class="relative image">
+        <img class="object-cover object-center w-full h-[15rem] sm:h-[17rem]" src="${activity.img}" alt="${activity.name}" />
+      </div>
+      <div class="content">
+       <div class="flex justify-between items-center">
+            <h6 class="font-bold text-black mt-3 xl:text-[26px]">${activity.name}</h6>
+            <h6 class="font-bold text-blue-200 mt-3 xl:text-[26px]">${activity.price}</h6>
+          </div>
+        <p class="font-lato sectionMediumText font-bold lg:mt-1">
+          Duration: <span class="font-normal">${activity.duration}</span>
+        </p>
+        <p class="font-lato sectionMediumText font-bold lg:mt-1">
+          Remark: <span class="font-normal">${activity.remark}</span>
+        </p>
+        <div class="modal-action">
+          <a
+            href="https://wa.me/6285921415585?text=${encodeURIComponent(
+              `Hi Better Water Sports Bali, I am interested in the activity "${activity.name}". Could you please provide more details?`
+            )}"
+            target="_blank"
+            class="whatsapp-button font-bold text-white bg-blue-200 w-full btn-blue btn p-2 mt-4 rounded"
+          >
+            Get it now
+          </a>
+        </div>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+  window.onload = () => {
+    fetchPackages();
+    fetchActivities();
+  };
+</script>
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {

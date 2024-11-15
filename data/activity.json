@@ -1,0 +1,75 @@
+{
+    "activities": [
+      {
+        "name": "Banana",
+        "duration": "1 Round",
+        "price": "IDR 60k",
+        "img": "/assets/banana.avif",
+        "remark": "Min 2 person"
+      },
+      {
+        "name": "Parasailing Adv",
+        "duration": "1x Fly",
+        "price": "IDR 200k",
+        "img": "/assets/parasailing.avif",
+        "remark": "1 person"
+      },
+      {
+        "name": "Jetski",
+        "duration": "15 Minutes",
+        "price": "IDR 130k",
+        "img": "/assets/jetski.avif",
+        "remark": "With Instructor"
+      },
+      {
+        "name": "Flyfish",
+        "duration": "2x Fly",
+        "price": "IDR 120k",
+        "img": "/assets/flyfish.webp",
+        "remark": "Min 2 person"
+      },
+      {
+        "name": "Donut",
+        "duration": "1 Round",
+        "price": "IDR 90k",
+        "img": "/assets/donut.webp",
+        "remark": "Min 2 person"
+      },
+      {
+        "name": "Diving",
+        "duration": "30 Minutes",
+        "price": "IDR 280k",
+        "img": "/assets/diving.avif",
+        "remark": "1 Person"
+      },
+      {
+        "name": "Ocean Walker",
+        "duration": "30 Minutes",
+        "price": "IDR 250k",
+        "img": "/assets/ocean.avif",
+        "remark": "1 person"
+      },
+      {
+        "name": "Snorkeling",
+        "duration": "60 Minutes",
+        "price": "IDR 130k",
+        "img": "/assets/snorkeling.avif",
+        "remark": "Min 2 person"
+      },
+      {
+        "name": "Fly Board",
+        "duration": "15 Minutes",
+        "price": "IDR 375k",
+        "img": "/assets/fly.jpg",
+        "remark": "1 person"
+      },
+      {
+        "name": "Turtle Island",
+        "duration": "60 Minutes",
+        "price": "IDR 400k / boat",
+        "img": "/assets/turtle.avif",
+        "remark": "Max 10 Person"
+      }
+    ]
+  }
+  
