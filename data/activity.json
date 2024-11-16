@@ -39,14 +39,14 @@
         "name": "Diving",
         "duration": "30 Minutes",
         "price": "IDR 280k",
-        "img": "/assets/diving.avif",
+        "img": "/assets/diving.jpg",
         "remark": "1 Person"
       },
       {
         "name": "Ocean Walker",
         "duration": "30 Minutes",
         "price": "IDR 250k",
-        "img": "/assets/ocean.avif",
+        "img": "/assets/ocean.webp",
         "remark": "1 person"
       },
       {
@@ -67,7 +67,7 @@
         "name": "Turtle Island",
         "duration": "60 Minutes",
         "price": "IDR 400k / boat",
-        "img": "/assets/turtle.avif",
+        "img": "/assets/turtle.jpg",
         "remark": "Max 10 Person"
       }
     ]
