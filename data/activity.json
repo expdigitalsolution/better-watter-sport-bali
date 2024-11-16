@@ -4,21 +4,21 @@
         "name": "Banana",
         "duration": "1 Round",
         "price": "IDR 60k",
-        "img": "/assets/banana.avif",
+        "img": "/assets/banana.jpg",
         "remark": "Min 2 person"
       },
       {
         "name": "Parasailing Adv",
         "duration": "1x Fly",
         "price": "IDR 200k",
-        "img": "/assets/parasailing.avif",
+        "img": "/assets/parasailing5.jpg",
         "remark": "1 person"
       },
       {
         "name": "Jetski",
         "duration": "15 Minutes",
         "price": "IDR 130k",
-        "img": "/assets/jetski.avif",
+        "img": "/assets/jetski2.webp",
         "remark": "With Instructor"
       },
       {
