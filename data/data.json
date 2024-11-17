@@ -24,7 +24,7 @@
         ],
         "price_per_person": "IDR 240k",
         "include": "Lunch",
-        "image": "../assets/image1.jpg",
+        "image": "../assets/banana.jpg",
         "link": "https://www.bagusbalitrans.com/tour-package/package-a"
       },
       {
@@ -51,7 +51,7 @@
         ],
         "price_per_person": "IDR 260k",
         "include": "Lunch",
-        "image": "../assets/image2.jpg",
+        "image": "../assets/donut.webp",
         "link": "https://www.bagusbalitrans.com/tour-package/package-b"
       },
       {
@@ -78,7 +78,7 @@
         ],
         "price_per_person": "IDR 280k",
         "include": "Lunch",
-        "image": "../assets/image3.jpg",
+        "image": "../assets/image2.webp",
         "link": "https://www.bagusbalitrans.com/tour-package/package-c"
       },
       {
@@ -105,7 +105,7 @@
         ],
         "price_per_person": "IDR 300k",
         "include": "Lunch",
-        "image": "../assets/image4.avif",
+        "image": "../assets/fly.jpg",
         "link": "https://www.bagusbalitrans.com/tour-package/package-d"
       },
       {
@@ -132,7 +132,7 @@
         ],
         "price_per_person": "IDR 310k",
         "include": "Lunch",
-        "image": "../assets/image5.jpg",
+        "image": "../assets/image3.jpg",
         "link": "https://www.bagusbalitrans.com/tour-package/package-e"
       },
       {
@@ -159,7 +159,7 @@
         ],
         "price_per_person": "IDR 360k",
         "include": "Lunch",
-        "image": "../assets/image6.jpg",
+        "image": "../assets/image1.jpg",
         "link": "https://www.bagusbalitrans.com/tour-package/package-f"
       },
       {
@@ -186,7 +186,7 @@
         ],
         "price_per_person": "IDR 400k",
         "include": "Lunch",
-        "image": "../assets/image7.jpg",
+        "image": "../assets/donut2.jpeg",
         "link": "https://www.bagusbalitrans.com/tour-package/package-g"
       },
       {
@@ -213,7 +213,7 @@
         ],
         "price_per_person": "IDR 410k",
         "include": "Lunch",
-        "image": "../assets/image8.jpg",
+        "image": "../assets/jetski2.webp",
         "link": "https://www.bagusbalitrans.com/tour-package/package-h"
       }
     ]
